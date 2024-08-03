@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBaru",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArrayContract.sol": "DynamicArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArrayContract.sol": {
+			"keccak256": "0x6722055744676778090aa565306ef48a2dbf82b2f07b0a17a14610d0d8e4c69d",
+			"urls": [
+				"bzz-raw://2c057601abeec809cf8e1112b2af37c1f3232def0ff07ca44735c9b1d5789a90",
+				"dweb:/ipfs/QmZhcPvcggBbbVaiGkP1LrusYFBYym2JSh2JJesaTzWpXQ"
+			]
+		}
+	},
+	"version": 1
+}
