@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "kalkulasi",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "hasil",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Location.sol": "DataLocation"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Location.sol": {
+			"keccak256": "0x0349cfb6f5ebc34daf9e0d573a9e00df9bb71738bbcf421b77861f8367567699",
+			"urls": [
+				"bzz-raw://7fb0adde64923f01285577d9ee72fc21594f0596feb77e1e06ed1872c86b097c",
+				"dweb:/ipfs/QmQ6M5DY9yneJV61tehR19LvJ5sapHJX9avMKVwTLjQqpC"
+			]
+		}
+	},
+	"version": 1
+}
