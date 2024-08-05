@@ -6,15 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "warisan",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_value",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setValue",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "Parent"
+			"contracts/MultiLevelInheritance2.sol": "Caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,11 +46,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Inheritance.sol": {
-			"keccak256": "0xe9041e51cd29395d657db97d9376fb6f85062e26b2319aa8f113d1b46c6a1b7f",
+		"contracts/MultiLevelInheritance2.sol": {
+			"keccak256": "0xd7f589d331611c8f4315e211a83f836baa7df77d2371df9b4786d7e1c69862d0",
 			"urls": [
-				"bzz-raw://2dbe2421634eb8e9ade0b6ddff4660f208fce66b158a5216b8fee402e84b06af",
-				"dweb:/ipfs/QmRBfmcbx9vqGwERdYU58XhK9GCna8hfDg17Qda1qM6XA4"
+				"bzz-raw://fe6e4e334824e25b5a31af92db0e430efdee37669abb234df57bcad6e7618ade",
+				"dweb:/ipfs/QmRaqyuq1zRSywmMr8fUmb3UYfQZMSaAMMUCWRWWe9PKSe"
 			]
 		}
 	},

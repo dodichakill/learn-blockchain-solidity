@@ -9,12 +9,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_value",
+						"name": "_input",
 						"type": "uint256"
 					}
 				],
-				"name": "setValue",
-				"outputs": [],
+				"name": "wariskan",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -32,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Inheritance.sol": "Parent"
+			"contracts/Inheritance.sol": "caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
